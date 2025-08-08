@@ -1,6 +1,6 @@
 import { Routes } from "@angular/router";
 import { PrimerComponenteprevinComponent } from "./pages/primerComponenteprevin/primerComponenteprevin.component";
-import { HomeComponent } from "../shared/components/home/home.component";
+import { HomeComponent } from "../shared/pages/home/home.component";
 import { NavRoute } from "../shared/interfaces/nav-route.model";
 
 export const previnRoutes: Routes = [

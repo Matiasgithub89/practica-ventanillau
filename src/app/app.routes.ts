@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './shared/components/home/home.component';
+import { HomeComponent } from './shared/pages/home/home.component';
 import { previnRoutes } from './previn/previn.routes';
 import { habcomNavRoutes } from './habcom/habcom.routes';
 
