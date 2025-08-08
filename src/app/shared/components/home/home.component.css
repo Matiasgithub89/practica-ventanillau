@@ -1,0 +1,40 @@
+/* Títulos de sección */
+h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #444;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+/* Contenedor de botones */
+div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Estilo base para los botones */
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #1976d2; /* Azul estilo Material */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover */
+button:hover {
+  background-color: #1565c0;
+}
+
+/* Responsive tweaks (opcional) */
+@media (max-width: 600px) {
+  button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+<h1>Bienvenido</h1>
+
+<h2>PREVIN</h2>
+<div>
+  @for (route of previnRoutes; track route.path) {
+    <button [routerLink]="route.path">{{ route.label }}</button>
+  }
+</div>
+
+<h2>HABCOM</h2>
+<div>
+  @for (route of habcomRoutes; track route.path) {
+    <button [routerLink]="route.path">{{ route.label }}</button>
+  }
+</div>
